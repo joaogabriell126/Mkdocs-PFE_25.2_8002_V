@@ -1,0 +1,59 @@
+# Configuração do Projeto
+site_name: Projeto Monitores IBMEC
+site_url: https://exemplo.com/ # Coloque o link do seu site aqui quando tiver
+site_author: Seu Time de Desenvolvimento
+site_description: 
+  Documentação do projeto de desenvolvimento frontend para a plataforma 
+  de monitores da faculdade IBMEC.
+
+# Repositório
+repo_name: PFE_25.2_8002_V # Opcional: Link para o GitHub
+repo_url: https://github.com/Projetos-de-Extensao/PFE_25.2_8002_V.git # Opcional
+
+# Copyright
+copyright: Copyright &copy; 2024 - Time de Desenvolvimento
+
+# Configuração do Tema
+theme:
+  name: material
+  language: pt # Define o idioma para português
+  palette:
+    # Paleta para modo claro
+    - scheme: default
+      primary: indigo # Cor primária (pode ser blue, red, etc.)
+      accent: indigo # Cor de destaque
+      toggle:
+        icon: material/brightness-7 
+        name: Mudar para modo escuro
+    # Paleta para modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs # Navegação em abas
+    - navigation.sections # Seções expansíveis no menu lateral
+    - toc.integrate # Integra o índice da página no menu lateral
+    - navigation.top # Botão para voltar ao topo
+    - search.suggest # Sugestões de busca
+    - content.code.annotate # Anotações em blocos de código
+    - content.code.copy # Botão para copiar código
+
+# Estrutura de Navegação (Menu)
+nav:
+  - 'Introdução': 'index.md'
+  - 'Metodologia':
+    - 'Nosso Processo': 'metodologia/processo.md'
+    - 'Ferramentas': 'metodologia/ferramentas.md'
+
+# Extensões do Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
