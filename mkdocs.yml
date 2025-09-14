@@ -1,17 +1,17 @@
 # Configuração do Projeto
 site_name: Projeto Monitores IBMEC
-site_url: https://exemplo.com/ # Coloque o link do seu site aqui quando tiver
-site_author: Seu Time de Desenvolvimento
+site_url: https://exemplo.com/ # Coloque o link do seu site aqui
+site_author: PFE_25.2_8002_V
 site_description: 
   Documentação do projeto de desenvolvimento frontend para a plataforma 
   de monitores da faculdade IBMEC.
 
 # Repositório
-repo_name: PFE_25.2_8002_V # Opcional: Link para o GitHub
+repo_name: PFE_25.2_8002_V 
 repo_url: https://github.com/Projetos-de-Extensao/PFE_25.2_8002_V.git # Opcional
 
 # Copyright
-copyright: Copyright &copy; 2024 - Time de Desenvolvimento
+copyright: Copyright &copy; 2024 - PFE_25.2_8002_V
 
 # Configuração do Tema
 theme:

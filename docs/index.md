@@ -21,9 +21,9 @@ Navegue pelas seções ao lado para conhecer mais sobre nossa **metodologia** e 
 ## Time do Projeto
 | Integrante     | Função  |
 |----------------|-----------------------|
+| Caio Ximenes    | Membro da equipe |
 | Israel Trindade | Membro da equipe |
 | João Gabriel    | Membro da equipe |
-| Caio Ximenes    | Membro da equipe |
 | Marcos Paulo    | Membro da equipe |
 | Micael Dali     | Membro da equipe |
 

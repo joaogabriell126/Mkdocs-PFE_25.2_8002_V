@@ -61,13 +61,16 @@ Tarefas que estão sendo ativamente desenvolvidas por um membro da equipe.
 
 Quando o desenvolvimento é concluído, a tarefa passa por uma revisão de código por pares. Esta etapa é crucial para garantir a qualidade e a padronização do projeto.
 
-!!! check "Critérios de Revisão"
-
-    - **Padrão de Código:** O código deve ser limpo, legível e seguir as melhores práticas.
-    - **Padrão de Nomenclatura:**
-        - **JavaScript (variáveis, funções):** `camelCase`
-        - **CSS (classes, IDs) e HTML (atributos):** `kebab-case`
 
 ### 5. Done (Concluído)
 
-Uma tarefa é considerada concluída somente após ser aprovada na etapa de revisão e atender a todos os seus critérios de aceite.
+Uma tarefa é considerada concluída somente após ser aprovada na etapa de revisão por outro desenvolvedor e atender a todos os seus critérios de Done.
+
+!!! check "Critérios de Done"
+
+    - **Padrão de Código:** O código deve ser limpo, legível e seguir as melhores práticas.
+    - **Padrão de Nomenclatura:**
+        - **JavaScript (variáveis, funções):** `snake_case`
+        - **JavaScript (metódos):** `CamelCase`
+        - **JavaScript (classes):** `lowerCamelCase`
+        - **CSS (classes, IDs) e HTML (atributos):** `kebab-case`
